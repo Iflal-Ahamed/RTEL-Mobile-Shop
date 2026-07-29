@@ -1,0 +1,373 @@
+:root {
+  --rt-bg: #ffffff;
+  --rt-surface: #ffffff;
+  --rt-surface-2: #f7f7f7;
+  --rt-text: #111111;
+  --rt-text-muted: #6b7280;
+  --rt-border: #e5e7eb;
+}
+
+button[name*="save" i],
+button[id*="save" i],
+input[type="submit"][name*="save" i],
+input[type="submit"][id*="save" i],
+input[type="submit"][value*="save" i],
+.save-btn,
+.btn-save {
+  background: #2563eb !important;
+  border-color: #2563eb !important;
+  color: #ffffff !important;
+}
+
+button[name*="save" i]:hover,
+button[id*="save" i]:hover,
+input[type="submit"][name*="save" i]:hover,
+input[type="submit"][id*="save" i]:hover,
+input[type="submit"][value*="save" i]:hover,
+.save-btn:hover,
+.btn-save:hover {
+  background: #1d4ed8 !important;
+  border-color: #1d4ed8 !important;
+  color: #ffffff !important;
+}
+
+html[data-theme="dark"] {
+  --rt-bg: #0b1220;
+  --rt-surface: #111827;
+  --rt-surface-2: #1f2937;
+  --rt-text: #e5e7eb;
+  --rt-text-muted: #94a3b8;
+  --rt-border: #334155;
+}
+
+html[data-theme="dark"] body {
+  background: var(--rt-bg) !important;
+  color: var(--rt-text) !important;
+}
+
+html[data-theme="dark"] .bg-light,
+html[data-theme="dark"] .card,
+html[data-theme="dark"] .block-18,
+html[data-theme="dark"] .sidebar-box,
+html[data-theme="dark"] .promo-shell,
+html[data-theme="dark"] .section-shell,
+html[data-theme="dark"] .login-layout,
+html[data-theme="dark"] .login-card,
+html[data-theme="dark"] .chat-product-item,
+html[data-theme="dark"] .assistant-card,
+html[data-theme="dark"] .assistant-page,
+html[data-theme="dark"] .ftco-footer-widget,
+html[data-theme="dark"] .footer-modern {
+  background: var(--rt-surface) !important;
+  color: var(--rt-text) !important;
+  border-color: var(--rt-border) !important;
+}
+
+html[data-theme="dark"] .ftco-section:not(.img) {
+  background-color: var(--rt-surface) !important;
+}
+
+html[data-theme="dark"] .hero-wrap,
+html[data-theme="dark"] .ftco-section.img {
+  background-color: transparent !important;
+}
+
+html[data-theme="dark"] p,
+html[data-theme="dark"] li,
+html[data-theme="dark"] span,
+html[data-theme="dark"] small,
+html[data-theme="dark"] h1,
+html[data-theme="dark"] h2,
+html[data-theme="dark"] h3,
+html[data-theme="dark"] h4,
+html[data-theme="dark"] h5,
+html[data-theme="dark"] h6,
+html[data-theme="dark"] label,
+html[data-theme="dark"] td,
+html[data-theme="dark"] th,
+html[data-theme="dark"] .text-dark,
+html[data-theme="dark"] .ftco-heading-2,
+html[data-theme="dark"] .breadcrumbs,
+html[data-theme="dark"] .breadcrumbs a,
+html[data-theme="dark"] .price,
+html[data-theme="dark"] .p-price {
+  color: var(--rt-text) !important;
+}
+
+html[data-theme="dark"] .text-muted,
+html[data-theme="dark"] .login-subtitle,
+html[data-theme="dark"] .auth-subtitle,
+html[data-theme="dark"] .assistant-subtitle {
+  color: var(--rt-text-muted) !important;
+}
+
+html[data-theme="dark"] .navbar,
+html[data-theme="dark"] .navbar .dropdown-menu,
+html[data-theme="dark"] .search-dropdown,
+html[data-theme="dark"] .modal-content,
+html[data-theme="dark"] .table,
+html[data-theme="dark"] .table thead th,
+html[data-theme="dark"] .table td,
+html[data-theme="dark"] .table th {
+  background: var(--rt-surface) !important;
+  color: var(--rt-text) !important;
+  border-color: var(--rt-border) !important;
+}
+
+html[data-theme="dark"] input:not([type="checkbox"]):not([type="radio"]),
+html[data-theme="dark"] textarea,
+html[data-theme="dark"] select,
+html[data-theme="dark"] .form-control {
+  background: var(--rt-surface-2) !important;
+  color: var(--rt-text) !important;
+  border-color: var(--rt-border) !important;
+}
+
+html[data-theme="dark"] .form-switch .form-check-input,
+html[data-theme="dark"] .form-check-input[type="checkbox"] {
+  background-color: initial !important;
+  border-color: initial !important;
+  color: initial !important;
+}
+
+html[data-theme="dark"] a {
+  color: #cbd5e1;
+}
+
+html[data-theme="dark"] .btn-light {
+  background: #1f2937 !important;
+  border-color: #475569 !important;
+  color: #e5e7eb !important;
+}
+
+html[data-theme="dark"] .btn-dark,
+html[data-theme="dark"] .btn.btn-dark {
+  background: #e5e7eb !important;
+  border-color: #e5e7eb !important;
+  color: #0f172a !important;
+}
+
+html[data-theme="dark"] .btn-dark:hover,
+html[data-theme="dark"] .btn.btn-dark:hover {
+  background: #ffffff !important;
+  border-color: #ffffff !important;
+  color: #020617 !important;
+}
+
+html[data-theme="dark"] input::placeholder,
+html[data-theme="dark"] textarea::placeholder {
+  color: #94a3b8 !important;
+}
+
+html[data-theme="dark"] .password-toggle,
+html[data-theme="dark"] .forgot-password-toggle,
+html[data-theme="dark"] .login-password-toggle {
+  background: #1f2937 !important;
+  color: #e5e7eb !important;
+  border-color: #475569 !important;
+}
+
+html[data-theme="dark"] .form-control-icon,
+html[data-theme="dark"] .icon,
+html[data-theme="dark"] .oi,
+html[data-theme="dark"] .ion-ios-arrow-down,
+html[data-theme="dark"] .ion-ios-arrow-up {
+  color: #cbd5e1 !important;
+}
+
+html[data-theme="dark"] .navbar-dark .navbar-nav .nav-link,
+html[data-theme="dark"] .navbar-dark .navbar-brand,
+html[data-theme="dark"] .dropdown-item {
+  color: #e5e7eb !important;
+}
+
+html[data-theme="dark"] [style*="color:black"],
+html[data-theme="dark"] [style*="color: black"],
+html[data-theme="dark"] [style*="color:#000"],
+html[data-theme="dark"] [style*="color: #000"],
+html[data-theme="dark"] [style*="color:#111"],
+html[data-theme="dark"] [style*="color: #111"],
+html[data-theme="dark"] [style*="color:#1a1a1a"] {
+  color: var(--rt-text) !important;
+}
+
+html[data-theme="dark"] .category-item span,
+html[data-theme="dark"] .brand-name,
+html[data-theme="dark"] .brand-title,
+html[data-theme="dark"] .brand-item span {
+  color: #000 !important;
+}
+
+html[data-theme="dark"] .testimony-section .testimony-wrap p,
+html[data-theme="dark"] .testimony-section .testimony-wrap .name,
+html[data-theme="dark"] .testimony-section .testimony-wrap .position,
+html[data-theme="dark"] .testimony-section .testimony-wrap h5,
+html[data-theme="dark"] .testimony-section .testimony-wrap span,
+html[data-theme="dark"] .testimony-section .testimony-wrap small {
+  color: #000000 !important;
+}
+
+html[data-theme="dark"] .carousel-testimony .item .testimony-wrap,
+html[data-theme="dark"] .carousel-testimony .item .testimony-wrap *,
+html[data-theme="dark"] .testimony-wrap,
+html[data-theme="dark"] .testimony-wrap * {
+  color: #000000 !important;
+}
+
+html[data-theme="dark"] .product,
+html[data-theme="dark"] .product .text,
+html[data-theme="dark"] .product-card,
+html[data-theme="dark"] .chat-product-item {
+  background: transparent !important;
+  border-color: var(--rt-border) !important;
+}
+
+html[data-theme="dark"] .product .text h3 a,
+html[data-theme="dark"] .product .text h3,
+html[data-theme="dark"] .product .price,
+html[data-theme="dark"] .product .price-sale,
+html[data-theme="dark"] .product .price-dc,
+html[data-theme="dark"] .product-card .p-name,
+html[data-theme="dark"] .product-card .p-price,
+html[data-theme="dark"] .chat-product-item .p-name,
+html[data-theme="dark"] .chat-product-item .p-price {
+  color: #ffffff !important;
+}
+
+html[data-theme="dark"] .orders-row,
+html[data-theme="dark"] .orders-block .orders-row,
+html[data-theme="dark"] .orders-block,
+html[data-theme="dark"] .orders-block .container,
+html[data-theme="dark"] .orders-block .card {
+  background: transparent !important;
+}
+
+html[data-theme="dark"] .orders-title,
+html[data-theme="dark"] .orders-product-name,
+html[data-theme="dark"] .orders-product-sub,
+html[data-theme="dark"] .orders-price,
+html[data-theme="dark"] .orders-date,
+html[data-theme="dark"] .orders-status,
+html[data-theme="dark"] .order-billing-panel,
+html[data-theme="dark"] .order-billing summary,
+html[data-theme="dark"] .profile-actions a {
+  color: #ffffff !important;
+}
+
+html[data-theme="dark"] .order-billing-panel {
+  background: #111827 !important;
+  border-color: #334155 !important;
+}
+
+html[data-theme="dark"] .pd-wrap,
+html[data-theme="dark"] .block-card,
+html[data-theme="dark"] .web-image-card,
+html[data-theme="dark"] .video-card,
+html[data-theme="dark"] .acc-card,
+html[data-theme="dark"] .review-card {
+  background: transparent !important;
+  box-shadow: none !important;
+}
+
+html[data-theme="dark"] .pd-wrap,
+html[data-theme="dark"] .pd-wrap h1,
+html[data-theme="dark"] .pd-wrap h2,
+html[data-theme="dark"] .pd-wrap h3,
+html[data-theme="dark"] .pd-wrap h4,
+html[data-theme="dark"] .pd-wrap h5,
+html[data-theme="dark"] .pd-wrap h6,
+html[data-theme="dark"] .pd-wrap p,
+html[data-theme="dark"] .pd-wrap span,
+html[data-theme="dark"] .pd-wrap a,
+html[data-theme="dark"] .pd-wrap li,
+html[data-theme="dark"] .pd-wrap label,
+html[data-theme="dark"] .pd-wrap small,
+html[data-theme="dark"] .pd-wrap .text-muted {
+  color: #ffffff !important;
+}
+
+html[data-theme="dark"] .pd-wrap .info-pill,
+html[data-theme="dark"] .pd-wrap .sold-pill {
+  color: #000000 !important;
+}
+
+html[data-theme="dark"] .footer-modern,
+html[data-theme="dark"] .footer-modern .ftco-heading-2,
+html[data-theme="dark"] .footer-modern p,
+html[data-theme="dark"] .footer-modern li,
+html[data-theme="dark"] .footer-modern span,
+html[data-theme="dark"] .footer-modern small,
+html[data-theme="dark"] .footer-modern a,
+html[data-theme="dark"] .footer-modern i,
+html[data-theme="dark"] .footer-modern .footer-bottom-note,
+html[data-theme="dark"] .footer-modern .mouse-wheel span {
+  color: #ffffff !important;
+}
+
+html[data-theme="dark"] .footer-modern .mouse-wheel span,
+html[data-theme="dark"] .footer-modern .mouse-icon .ion-ios-arrow-up {
+  color: #000000 !important;
+}
+
+html[data-theme="dark"] .product .bottom-area a,
+html[data-theme="dark"] .product .bottom-area .add-to-cart,
+html[data-theme="dark"] .product .bottom-area .buy-now,
+html[data-theme="dark"] .product .bottom-area .heart {
+  background: #ffffff !important;
+  border-color: #ffffff !important;
+  color: #000000 !important;
+}
+
+html[data-theme="dark"] .product .bottom-area a span,
+html[data-theme="dark"] .product .bottom-area a i,
+html[data-theme="dark"] .product .bottom-area .add-to-cart i,
+html[data-theme="dark"] .product .bottom-area .buy-now i,
+html[data-theme="dark"] .product .bottom-area .heart i {
+  color: #000000 !important;
+}
+
+.rt-theme-toggle {
+  position: fixed;
+  right: 16px;
+  bottom: 18px;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  border: 1px solid #cbd5e1;
+  background: #ffffff;
+  color: #111827;
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.2);
+  z-index: 10050;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+html[data-theme="dark"] .rt-theme-toggle {
+  background: #111827;
+  color: #e5e7eb;
+  border-color: #334155;
+}
+
+.swal2-title,
+.swal2-html-container,
+.swal2-content,
+.swal2-popup,
+.swal2-popup p,
+.swal2-popup span {
+  color: #000000 !important;
+}
+
+html[data-theme="dark"] .swal2-container .swal2-popup,
+html[data-theme="dark"] .swal2-container .swal2-title,
+html[data-theme="dark"] .swal2-container .swal2-html-container,
+html[data-theme="dark"] .swal2-container .swal2-content,
+html[data-theme="dark"] .swal2-container .swal2-validation-message,
+html[data-theme="dark"] .swal2-container .swal2-popup p,
+html[data-theme="dark"] .swal2-container .swal2-popup span,
+html[data-theme="dark"] .swal2-container .swal2-popup div,
+html[data-theme="dark"] .swal2-container .swal2-popup small {
+  color: #000000 !important;
+}
