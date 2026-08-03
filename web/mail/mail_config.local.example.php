@@ -10,9 +10,9 @@
 return [
     "host" => "smtp.gmail.com",
     "port" => 587,
-    "username" => "iflaliflal401@gmail.com",
-    "password" => "PUT_YOUR_GMAIL_APP_PASSWORD_HERE",
-    "from_email" => "iflaliflal401@gmail.com",
+    "username" => "your-email@gmail.com",
+    "password" => "YOUR_GMAIL_APP_PASSWORD",
+    "from_email" => "your-email@gmail.com",
     "from_name" => "R-TEL Mobile Shop",
     "encryption" => "tls",
 ];
